@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">GUI App Streaming</string>
+    
+    <string-array name="idiomas" translatable="false">
+        <item>Español</item>
+        <item>Inglés</item>
+        <item>Ruso</item>
+        <item>Francés</item>
+        <item>Portugés</item>
+        <item>Aleman</item>
+    </string-array>
 </resources>
