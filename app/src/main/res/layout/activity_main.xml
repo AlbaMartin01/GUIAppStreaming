@@ -98,21 +98,14 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp">
-
             <Button
                 android:layout_width="125dp"
                 android:layout_height="125dp"
                 android:backgroundTint="@color/black"
                 android:drawableTop="@drawable/ninnos"
                 android:text="Niños"
-                android:textAllCaps="false" />
-
-        </LinearLayout>
+                android:textAllCaps="false"
+                android:layout_gravity="center"/>
 
     </LinearLayout>
 
