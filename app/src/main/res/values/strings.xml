@@ -1,12 +1,17 @@
 <resources>
     <string name="app_name">GUI App Streaming</string>
 
-    <string-array name="idiomas" translatable="false">
-        <item>Español</item>
-        <item>Inglés</item>
-        <item>Ruso</item>
-        <item>Francés</item>
-        <item>Portugés</item>
-        <item>Aleman</item>
+    <string-array name="categorias" translatable="false">
+        <item>Categorías</item>
+        <item>Fantasía</item>
+        <item>Acción</item>
+        <item>Romance</item>
+        <item>Dramas</item>
+        <item>Comedia</item>
     </string-array>
+    
+    <style name="CustomText" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
 </resources>

@@ -1,11 +1,14 @@
 package com.example.guiappstreaming
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
+import android.widget.ArrayAdapter
 import android.widget.ImageView
+import android.widget.Spinner
 
 class PaginaPrincipalSeriesPeliculas : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId", "ResourceType")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pagina_principal_series_peliculas)
@@ -21,5 +24,7 @@ class PaginaPrincipalSeriesPeliculas : AppCompatActivity() {
         } else if (usuario == "usuario4"){
             findViewById<ImageView>(R.id.imagenUsuario).setImageResource(R.drawable.icono4)
         }
+
+
     }
 }
