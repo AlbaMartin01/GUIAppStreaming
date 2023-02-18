@@ -15,10 +15,13 @@ class MainActivity : AppCompatActivity() {
 
         var usuario = ""
 
+        //Va a la pantalla de Administrar botones
         findViewById<ImageButton>(R.id.botonEditar).setOnClickListener{
             var intento = Intent(this, paginaAjustes::class.java)
             startActivity(intento)
         }
+
+        //Todos los botones van a la pantalla de Series y Películas
 
         findViewById<Button>(R.id.boton1).setOnClickListener {
             var intento = Intent(this, PaginaPrincipalSeriesPeliculas::class.java)

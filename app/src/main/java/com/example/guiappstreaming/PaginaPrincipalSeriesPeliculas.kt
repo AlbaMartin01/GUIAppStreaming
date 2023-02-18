@@ -15,6 +15,8 @@ class PaginaPrincipalSeriesPeliculas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pagina_principal_series_peliculas)
 
+        //Reciben el String para poner la imagen del usuario
+
         var usuario = intent.getStringExtra("Usuario")
 
         if (usuario == "usuario1"){

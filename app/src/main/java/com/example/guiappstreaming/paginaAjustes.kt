@@ -13,6 +13,8 @@ class paginaAjustes : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pagina_ajustes)
 
+        // Recibe un string y pone la imagen y el texto correspondiente del usuario
+
         var usuario = ""
 
         findViewById<Button>(R.id.usuario1).setOnClickListener {
@@ -49,6 +51,8 @@ class paginaAjustes : AppCompatActivity() {
             intento.putExtra("Usuario", usuario)
             startActivity(intento)
         }
+
+        //Vuelve a la pantalla anterior
 
         findViewById<ImageView>(R.id.imageButton).setOnClickListener{
             var intento = Intent(this,MainActivity::class.java)

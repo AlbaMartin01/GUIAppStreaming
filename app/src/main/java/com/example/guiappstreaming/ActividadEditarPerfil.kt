@@ -11,6 +11,8 @@ open class ActividadEditarPerfil : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_actividad_editar_perfil)
 
+        // Recibe un string y pone la imagen correspondiente del usuario
+
         var usuario = intent.getStringExtra("Usuario")
 
         if (usuario == "usuario1"){
@@ -30,6 +32,7 @@ open class ActividadEditarPerfil : AppCompatActivity() {
             findViewById<EditText>(R.id.textoNombre).setText("Niños")
         }
 
+        //Va a la pantalla anterior
         findViewById<ImageButton>(R.id.imageButton).setOnClickListener {
             var intento = Intent(this,paginaAjustes::class.java)
             startActivity(intento)
