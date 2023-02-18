@@ -3,9 +3,11 @@ package com.example.guiappstreaming
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ArrayAdapter
-import android.widget.ImageView
-import android.widget.Spinner
+import android.view.View
+import android.widget.*
+import androidx.constraintlayout.helper.widget.Carousel
+import androidx.viewpager.widget.ViewPager
+import com.google.android.material.card.MaterialCardView
 
 class PaginaPrincipalSeriesPeliculas : AppCompatActivity() {
     @SuppressLint("MissingInflatedId", "ResourceType")

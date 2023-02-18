@@ -41,6 +41,7 @@
                 android:layout_height="45dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="12dp"
+                android:src="@drawable/ninnos"
                 tools:ignore="MissingConstraints" />
         </LinearLayout>
 
@@ -78,60 +79,9 @@
                 android:layout_height="wrap_content"
                 android:src="@android:drawable/ic_menu_more"/>
 
-            <!--<Spinner android:id="@+id/spinner"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/white"
-                android:entries="@array/categorias"
-
-                android:textColor="@color/white"/>-->
-
         </LinearLayout>
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="405dp"
-            android:layout_gravity="center"
-            android:src="@drawable/netflix1" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center">
-
-            <Button
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:drawableTop="@android:drawable/ic_menu_add"
-                android:backgroundTint="@color/black"
-                android:text="Mi lista"
-                android:textAllCaps="false"
-                android:textSize="10dp"
-                android:layout_marginRight="5dp"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="@color/white"
-                android:drawableLeft="@android:drawable/ic_media_play"
-                android:text="Reproducir"
-                android:textAllCaps="false"
-                android:textColor="@color/black"
-                android:textSize="15dp" />
-
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="5dp"
-                android:backgroundTint="@color/black"
-                android:drawableTop="@android:drawable/ic_menu_info_details"
-                android:text="Información"
-                android:textAllCaps="false"
-                android:textSize="10dp" />
-
-        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -154,36 +104,40 @@
                 android:layout_height="wrap_content">
 
                 <ImageView  android:id="@+id/imageView1"
-                    android:src="@drawable/elite"
+                    android:src="@drawable/cocomelon"
                     android:layout_height="250dp"
-                    android:layout_width="150dp"/>
+                    android:layout_width="150dp"
+                    android:layout_marginRight="5dp"/>
 
                 <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="150dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/emilyinparis" />
+                    android:src="@drawable/lacasademunnecasdegabby"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
 
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="150dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/ginnyygeorgia" />
+                    android:src="@drawable/jurassicworld"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
 
                 <ImageView  android:id="@+id/imageView4"
-                    android:src="@drawable/laemperatriz"
+                    android:src="@drawable/sonicprime"
                     android:layout_height="250dp"
-                    android:layout_width="150dp"/>
+                    android:layout_width="150dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
 
                 <ImageView  android:id="@+id/imageView5"
-                    android:src="@drawable/tucasaolamia"
+                    android:src="@drawable/mipadreescazarecompensasintergalactico"
                     android:layout_height="250dp"
-                    android:layout_width="150dp" />
-
-                <ImageView  android:id="@+id/imageView6"
-                    android:src="@drawable/you"
-                    android:layout_height="250dp"
-                    android:layout_width="150dp" />
+                    android:layout_width="150dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
             </LinearLayout>
 
         </HorizontalScrollView>
@@ -211,34 +165,34 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/glassonion"
+                    android:src="@drawable/unacasadelocos"
                     android:layout_marginRight="5dp"/>
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/remember"
+                    android:src="@drawable/ladybug"
                     android:layout_marginRight="5dp"
                     android:layout_marginLeft="5dp"/>
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/infiesto"
+                    android:src="@drawable/lacasademunnecasdegabby"
                     android:layout_marginRight="5dp"
                     android:layout_marginLeft="5dp"/>
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/narvik"
+                    android:src="@drawable/lapatrullacanina"
                     android:layout_marginRight="5dp"
                     android:layout_marginLeft="5dp"/>
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/sinnovedadenelfrente"
+                    android:src="@drawable/h2o"
                     android:layout_marginLeft="5dp"/>
 
             </LinearLayout>
@@ -267,13 +221,13 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/glassonion"
+                    android:src="@drawable/peppapig"
                     android:layout_marginRight="5dp"/>
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/riverdale"
+                    android:src="@drawable/grizzy"
                     android:layout_marginRight="5dp"
                     android:layout_marginLeft="5dp"/>
 
@@ -282,12 +236,12 @@
                     android:layout_height="250dp"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
-                    android:src="@drawable/laschicasdelcable" />
+                    android:src="@drawable/jurassicworld" />
 
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/sinnovedadenelfrente"
+                    android:src="@drawable/cocomelon"
                     android:layout_marginLeft="5dp"/>
 
             </LinearLayout>
