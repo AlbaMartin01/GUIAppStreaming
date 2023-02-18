@@ -50,19 +50,22 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <Button
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/black"
                 android:text="Series TV"
-                android:textAllCaps="false"/>
+                android:textColor="@color/white"
+                android:layout_marginRight="10dp"/>
 
-            <Button
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/black"
                 android:text="Películas"
-                android:textAllCaps="false"/>
+                android:textColor="@color/white"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
 
             <TextView
                 android:layout_marginLeft="10dp"
@@ -70,9 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Categoría"
-                android:textColor="@color/white"
-                android:textSize="16dp"
-                android:textStyle="bold"/>
+                android:textColor="@color/white" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -80,8 +81,6 @@
                 android:src="@android:drawable/ic_menu_more"/>
 
         </LinearLayout>
-
-
 
         <TextView
             android:layout_width="match_parent"
