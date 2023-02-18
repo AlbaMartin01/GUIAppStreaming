@@ -49,19 +49,22 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <Button
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/black"
                 android:text="Series TV"
-                android:textAllCaps="false"/>
+                android:textColor="@color/white"
+                android:layout_marginRight="10dp"/>
 
-            <Button
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/black"
                 android:text="Películas"
-                android:textAllCaps="false"/>
+                android:textColor="@color/white"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
 
             <TextView
                 android:layout_marginLeft="10dp"
@@ -69,9 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Categoría"
-                android:textColor="@color/white"
-                android:textSize="16dp"
-                android:textStyle="bold"/>
+                android:textColor="@color/white" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -94,42 +95,71 @@
             android:layout_gravity="center"
             android:src="@drawable/netflix1" />
 
-        <LinearLayout
+        <LinearLayout android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <Button
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:drawableTop="@android:drawable/ic_menu_add"
-                android:backgroundTint="@color/black"
-                android:text="Mi lista"
-                android:textAllCaps="false"
-                android:textSize="10dp"
-                android:layout_marginRight="5dp"/>
-
-            <Button
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="@color/white"
-                android:drawableLeft="@android:drawable/ic_media_play"
-                android:text="Reproducir"
-                android:textAllCaps="false"
-                android:textColor="@color/black"
-                android:textSize="15dp" />
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginRight="15dp">
 
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="75dp"
-                android:layout_marginLeft="5dp"
-                android:backgroundTint="@color/black"
-                android:drawableTop="@android:drawable/ic_menu_info_details"
-                android:text="Información"
-                android:textAllCaps="false"
-                android:textSize="10dp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_add" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mi lista"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_media_play" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reproducir"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_menu_info_details" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Información"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
 
         </LinearLayout>
 

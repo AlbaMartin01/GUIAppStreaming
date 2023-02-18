@@ -99,6 +99,7 @@
         </LinearLayout>
 
             <Button
+                android:id="@+id/ninnos"
                 android:layout_width="125dp"
                 android:layout_height="125dp"
                 android:backgroundTint="@color/black"

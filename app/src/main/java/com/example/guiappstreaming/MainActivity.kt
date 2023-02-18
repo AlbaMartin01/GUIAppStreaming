@@ -47,5 +47,10 @@ class MainActivity : AppCompatActivity() {
             intento.putExtra("Usuario", usuario)
             startActivity(intento)
         }
+
+        findViewById<Button>(R.id.ninnos).setOnClickListener {
+            var intento = Intent(this, PaginaPrincipalSeriesPeliculas::class.java)
+            startActivity(intento)
+        }
     }
 }
