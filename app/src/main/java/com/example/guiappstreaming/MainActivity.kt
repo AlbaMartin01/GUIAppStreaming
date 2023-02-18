@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.ninnos).setOnClickListener {
-            var intento = Intent(this, PaginaPrincipalSeriesPeliculas::class.java)
+            var intento = Intent(this, PaginaSeriesPeliculasNinnos::class.java)
             startActivity(intento)
         }
     }
